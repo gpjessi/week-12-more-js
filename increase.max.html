@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>increase max</title>
+</head>
+<body>
+    <script>
+        // this one demostrates a loop running within another loop (nesting!)
+        for (var x = 0; x++) {
+            // our first loop interates each step 
+            // we define our increment here as x, so we dont confuse it with i (below)
+          for  (var i = 0; i <= x; i++) {
+               // our 2nd inner loop (nested) usea i as an increment 
+               // Here we use x to control the number of interacrtion of i 
+               // at each increment of x, we run a new loop the size of x WITHNIN the 1st loop
+               console.log(i); 
+
+            }
+        }
+    </script>
+    
+</body>
+</html>
