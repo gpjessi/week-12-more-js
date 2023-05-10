@@ -1,0 +1,22 @@
+<html>
+    <body>
+        <script>
+            // an iterative example of the factorial function
+           // FACTORIAL:  5! = 5 * 4 * 3 * 2 * 1 = 120
+           function factorial(n){ // if n = 5
+            // defenition of our factorial function
+            var total = 1;
+            for (i = 0; i < n; i++) { // i = 0, 1, 3, 4
+                total = total * (n - i); // total = 5, 
+                
+           }
+           return total; //  final value of total when the function is called
+        }
+           var userstring = prompt("Number please"); // take a string 
+           var usernum = parseInt(userstring); // turn it into an interger
+
+           console.log(usernum + " ! is" + factorial (usernum)); // function call 
+
+        </script>
+    </body>
+</html> 
